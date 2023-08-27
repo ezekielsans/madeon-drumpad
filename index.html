@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- !links -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;700;900&family=Nabla&family=Poppins:wght@200;300;400;900&family=Prompt:wght@100;200;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>MadeonDrumpad</title>
+  </head>
+  <body>
+    <nav class="song-title">
+      <div class="playing-now">
+        <h1>HELLO:</h1>
+      </div>
+    </nav>
+
+    <main class="main-container">
+      <section class="drum-pad-sect-1">
+        <div data-key="81" class="pressed" id="Q">Q</div>
+        <audio data-key="81" id="sound1" src="soundsnippets/SNIP_1.wav"></audio>
+        <div data-key="87" class="pressed" id="W">W</div>
+        <audio data-key="87" id="sound2" src="soundsnippets/SNIP_2.wav"></audio>
+        <div data-key="69" class="pressed" id="E">E</div>
+        <audio data-key="69" id="sound3" src="soundsnippets/SNIP_3.wav"></audio>
+      </section>
+      <section class="drum-pad-sect-2">
+        <div data-key="65" class="pressed" id="A">A</div>
+        <audio data-key="65" id="sound4" src="soundsnippets/SNIP_4.wav"></audio>
+        <div data-key="83" class="pressed" id="S">S</div>
+        <audio
+          data-key="83"
+          id="sound5"
+          src="soundsnippets/SNIP_CHORUS_1.wav"
+        ></audio>
+        <div data-key="60" class="pressed" id="D">D</div>
+        <audio
+          data-key="60"
+          id="sound6"
+          src="soundsnippets/SNIP_CHORUS_ANGELIC.wav"
+        ></audio>
+      </section>
+      <section class="drum-pad-sect-3">
+        <div data-key="90" class="pressed" id="Z">Z</div>
+        <audio
+          data-key="90"
+          id="sound7"
+          src="soundsnippets/SNIP_BEAT_2.wav"
+        ></audio>
+        <div data-key="80" class="pressed" id="X">X</div>
+        <audio
+          data-key="80"
+          id="sound8"
+          src="soundsnippets/SNIP_BEAT_3.wav"
+        ></audio>
+        <div data-key="67" class="pressed" id="C">C</div>
+        <audio
+          data-key="67"
+          id="sound9"
+          src="soundsnippets/SNIP_BEAT_4.wav"
+        ></audio>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
